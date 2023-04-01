@@ -1,0 +1,219 @@
+fr:
+  forem:
+    general:
+      forum: Forum
+      topics: Sujets
+      topic: Sujet
+      posts: Messages
+      posts_count:
+        zero: Aucun message
+        one: 1 message
+        other: "%{count} messages"
+      flagged_for_spam: Votre compte a été signalé pour le spam.
+      cannot_create_topic: Vous ne pouvez pas créer un nouveau sujet actuellement.
+      cannot_create_post: Vous ne pouvez pas ajouter un message actuellement.
+
+    access_denied: "Vous n'êtes pas autorisé à faire cela."
+    admin:
+      area: Section d'administration
+      back_to_admin: "Retour à l'admin"
+      back_to_forums: Retour aux forums
+      back_to_groups: Retour aux groupes
+      welcome: "Bienvenue dans la section d'administration de forem."
+      forum:
+        moderator_groups: Groupes du modérateur
+        index: Gérer les forums
+        new: Créer un nouveau forum
+        new_link: Nouveau forum
+        deleted: Le forum sélectionné a été supprimé.
+        created: Ce forum a été créé.
+        not_created: Ce forum n'a pas pu être créé.
+        updated: Ce forum a été mis à jour.
+        not_updated: Ce forum n'a pas pu être mis à jour.
+      forums:
+        edit: Modifier
+        delete: Supprimer
+        category: Catégorie
+        delete_confirm: Êtes-vous certain de vouloir supprimer ce forum ?
+        index:
+          last_post: Dernier message
+          none: Aucun
+          moderators: Modérateurs
+          no_category: (Aucune categorie)
+      group:
+        index: Gérer les groupes
+        new: Nouveau groupe
+        created: Le groupe a été créé avec succès.
+        not_created: Le groupe n'a pas pu être créé.
+        deleted: Le groupe sélectionné a été supprimé.
+        members: "Membres dans %{group}"
+      groups:
+        show:
+          add_member: Ajouter
+          add_a_new_member: Ajouter un nouveau membre
+          current_members: Membres actuels
+          remove_member: Supprimer le membre
+          member_removed: "L'utilisateur sélectionné a été supprimé du groupe."
+          no_member_to_remove: "L'utilisateur sélectionné n'appartient pas à ce groupe."
+        edit: Editer
+        delete: Supprimer
+        name: Nom
+      category:
+        index: Gérer les catégories de forum
+        new: Création d'une nouvelle catégorie de forum
+        edit: "Modification de la catégorie %{title}"
+        new_link: Nouvelle catégorie de forum
+        deleted: La catégorie de forum a été supprimée.
+        created: Cette catégorie de forum a été ajoutée.
+        not_created: Cette catégorie de forum n'a pas pu être ajoutée.
+        updated: Cette catégorie de forum a été mise à jour.
+        not_updated: Cette catégorie de forum n'a pas pu être mise à jour.
+      categories:
+        edit: Modifier
+        delete: Supprimer
+        category: Catégorie
+        delete_confirm: Êtes-vous certain de vouloir supprimer cette catégorie de forum?
+    common:
+      pages: Pages
+    errors:
+      not_signed_in: Vous devez vous authentifier d'abord.
+      access_denied: Accès interdit.
+    forum:
+      header: "Voir %{title}"
+      forums: Forums
+      new: Création d'un nouveau forum
+      edit: "Mis à jour du forum : %{title}"
+      topics_count:
+        zero: 0 sujets
+        one: 1 sujet
+        other: "%{count} sujets"
+      posts_count:
+        zero: 0 message
+        one: 1 message
+        other: "%{count} messsages"
+      moderator_tools: "Outils de modération"
+    forums:
+      index:
+        title: Forums
+        forum: Forum
+        views: Vus
+        last_post: 'Dernier Message :'
+        none: Aucun
+    topic:
+      headings:
+        topic: Sujet
+        latest: Dernier
+        posts: Messages
+        views: Vus
+      moderation:
+        success: Le sujet sélectionné a été modéré.
+        no_option_selected: "Aucune option de modération n'a été sélectionné."
+      received_reply: Un sujet auquel vous êtes abonné a reçu une réponse.
+      reply: Répondre
+      quote: Citer
+      delete: Supprimer
+      created: Ce sujet a été ajouté..
+      new: Création d'un nouveau sujet
+      edit: Mise à jour du sujet
+      not_created: Ce sujet n'a pas pu être ajouté.
+      deleted: Votre sujet a été supprimé.
+      cannot_delete: Vous ne pouvez pas supprimer un sujet qui ne vous appartient pas.
+      updated: Ce sujet a été mise à jour.
+      not_updated: Ce sujet n'a pu être mis a jour.
+      subscribed: Vous êtes maintenant inscrit à ce sujet.
+      unsubscribed: Vous vous êtes désabonné de ce sujet.
+      none: Il n'y aucun sujet dans ce forum actuellement.
+      links:
+        new: Nouveau sujet
+        back_to_topics: Retour aux sujets
+        edit: Modifier un sujet
+      not_found: Le sujet recherché n'a pu être trouvé.
+      hidden:
+        'true': Ce sujet est maintenant caché.
+        'false': Ce sujet est maintenant visible.
+      locked:
+        'true': Ce sujet est maintenant vérouillé.
+        'false': Ce sujet est maintenant dévérouillé.
+      pinned:
+        'true': Ce sujet est maintenant épinglé.
+        'false': "Ce sujet est désormais désépinglé."
+    topics:
+      show:
+        reply: Répondre
+        delete: Supprimer
+        subscribe: "S'abonner"
+        unsubscribe: Se désabonner
+        reply_to_topic: Répondre au sujet
+        pending_review: Ce sujet est actuellement en révision. Seulement l'auteur et les modérateurs peuvent actuellement le consulter.
+        hide:
+          'true': Voir ce sujet
+          'false': Cacher ce sujet
+        lock:
+          'true': Vérouiller ce sujet
+          'false': Dévérouiller ce sujet
+        pin:
+          'true': Épingler ce sujet
+          'false': Désépingler ce sujet
+    post:
+      buttons:
+        reply: Répondre
+        edit: Modifier
+      created: Votre réponse a été posté.
+      new: Écrire un réponse
+      edit: Modifier
+      not_created: Votre réponse n'a pas été postée.
+      not_created_topic_locked: Vous ne pouvez pas répondre à un sujet verrouillé.
+      edited: Votre message a été modifié.
+      not_edited: Votre message n'a pas pu être modifié.
+      deleted: Votre message a été supprimé.
+      deleted_with_topic: Ce sujet ainsi que les messages ont été supprimés.
+      cannot_delete: Vous ne pouvez pas supprimer un message dont vous n'êtes pas l'auteur.
+      in_reply_to: En réponse à
+      cannot_quote_deleted_post: "Le poste que vous essayez de citer n'existe plus."
+    posts:
+      moderation:
+        moderate: Modérer
+        approve: Approuver
+        spam: Spam
+        success: Les messages sélectionnés ont été modérés.
+      post:
+        pending_review: Ce poste est actuellement en révision. Seul son auteur et les modérateurs peuvent le consulter.
+    moderation:
+      index:
+        title: "Outils de modération pour %{forum}"
+  helpers:
+    submit:
+      forum:
+        create: Créer un forum
+        update: Modifier un forum
+      topic:
+        create: Créer un sujet
+        update: Modifier un sujet
+  simple_form:
+    labels:
+      category:
+        name: Nom
+      forum:
+        title: Titre
+        description: Description
+        category: Catégorie
+        moderators: Moderateurs
+      topic:
+        subject: Sujet
+        locked: Vérouillé
+        pinned: Épinglé
+        hidden: Caché
+        posts:
+          text: Texte
+      post:
+        text: Texte
+      group:
+        name: Nom
+
+  # General stuff
+  time_ago_in_words: "il y a %{time}"
+  ago: " déjà"
+  ago_by: " déjà par"
+  by: par
+  started_by: "Commencé par "
+  are_you_sure: Êtes-vous certain ?

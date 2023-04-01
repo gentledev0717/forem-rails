@@ -1,0 +1,222 @@
+ru:
+  forem:
+    general:
+      deleted: [удалено]
+      forum: Форум
+      topics: Темы
+      topic: Тема
+      posts: Ответы
+      posts_count:
+        zero: Нет ответов
+        one: "%{count} ответ"
+        few: "%{count} ответов"
+        many: "%{count} ответов"
+        other: "%{count} ответа"
+      flagged_for_spam: Ваш аккаунт отмечен как спамовый.
+      cannot_create_topic: Вы не можете сейчас создать тему.
+      cannot_create_post: Вы не можете сейчас создать новый ответ.
+
+    access_denied: Доступ запрещен.
+    admin:
+      area: Администрирование
+      back_to_admin: "Вернуться к администрированию"
+      back_to_forums: "Вернуться к форумам"
+      back_to_groups: "Вернуться к группам"
+      welcome: Добро пожаловать в раздел администрирования форума.
+      forum:
+        moderator_groups: Модерирующие группы
+        index: Управление форумами
+        new: Создание нового форума
+        new_link: Новый форум
+        deleted: Выбранный форум был успешно удален.
+        created: Форум был успешно создан.
+        not_created: Форум не может быть создан.
+        updated: Форум был успешно изменен.
+        not_updated: Форум не может быть изменен.
+      forums:
+        edit: Редактировать
+        delete: Удалить
+        category: Категория
+        delete_confirm: Вы уверены, что хотите удалить этот форум?
+        index:
+          last_post: Последний ответ
+          none: Отсутствует
+          moderators: Модераторы
+          no_category: (Категория отсутствует)
+      group:
+        index: Управление группами
+        new: Новая группа
+        created: Группа была успешно создана.
+        not_created: Группа не может быть создана.
+        deleted: Выбранная группа была успешно удалена.
+        members: "Добавление пользователя в группу %{group}"
+      groups:
+        show:
+          add_member: Добавить
+          add_a_new_member: "Добавить нового члена группы"
+          current_members: "Члены группы"
+          remove_member: "Удалить из группы"
+          member_removed: "Выбранный пользователь был успешно удалён из группы."
+          no_member_to_remove: "Выбранный пользователь не входит в эту группу."
+        edit: Редактировать
+        delete: Удалить
+        name: Название
+      category:
+        index: Управление категориями
+        new: Создание новой категории
+        edit: "Редактирование категории %{title}"
+        new_link: Новая категория
+        deleted: Выбранная категория была успешно удалена.
+        created: Категория была успешно создана.
+        not_created: Категория не может быть создана.
+        updated: Категория была успешно изменена.
+        not_updated: Категория не может быть изменена.
+      categories:
+        edit: Редактировать
+        delete: Удалить
+        category: Категория
+        delete_confirm: Вы уверены, что хотите удалить эту категорию?
+    common:
+      pages: Страницы
+    errors:
+      not_signed_in: Сначала вы должны авторизоваться.
+      access_denied: Доступ запрещён.
+    forum:
+      header: "Просмотр %{title}"
+      forums: Форумы
+      new: Создание нового форума
+      edit: "Редактирование форума %{title}"
+      topics_count:
+        zero: 0 тем
+        one: 1 тема
+        other: "%{count} тем"
+      posts_count:
+        zero: нет ответов
+        one: 1 ответ
+        other: "%{count} ответов"
+      moderator_tools: "Инструменты модерации"
+    forums:
+      index:
+        title: Форумы
+        forum: Форум
+        views: Просмотров
+        last_post: 'Последний ответ:'
+        none: Отсутствует
+    topic:
+      headings:
+        topic: Тема
+        latest: Последняя
+        posts: Ответы
+        views: Просмотры
+      moderation:
+        success: Выбранная тема была отмодерирована.
+        no_option_selected: Не выбрано ни одного варианта для модерирования.
+      received_reply: Новый ответ в теме, на которую вы подписаны.
+      reply: Ответить
+      quote: Цитировать
+      delete: Удалить
+      created: Тема создана.
+      new: Создание новой темы
+      edit: Редактирование темы
+      not_created: Тема не может быть создана.
+      deleted: Ваша тема была успешно удалена.
+      cannot_delete: Вы не можете удалить тему, которую не создавали.
+      updated: Тема была успешно изменена.
+      not_updated: Тема не может быть изменена.
+      subscribed: Вы подписались на эту тему.
+      unsubscribed: Вы отписались от этой темы.
+      none: В настоящий момент в этом форуме нет ни одной темы.
+      links:
+        new: Новая тема
+        back_to_topics: Назад к списку тем
+        edit: Редактирование темы
+      not_found: Тема, которую вы ищете, не найдена.
+      hidden:
+        'true': Тема скрыта.
+        'false': Тема видима.
+      locked:
+        'true': Тема закрыта.
+        'false': Тема открыта.
+      pinned:
+        'true': Тема прикреплена.
+        'false': Тема откреплена.
+    topics:
+      show:
+        reply: Ответить
+        delete: Удалить
+        subscribe: Подписаться
+        unsubscribe: Отписаться
+        reply_to_topic: Ответить
+        pending_review: Эта тема ожидает проверки. Только автор темы и модератор могут её просмотреть.
+        hide:
+          'true': Показать тему
+          'false': Скрыть тему
+        lock:
+          'true': Открыть тему
+          'false': Закрыть тему
+        pin:
+          'true': Открепить тему
+          'false': Прикрепить тему
+    post:
+      buttons:
+        reply: Ответить
+        edit: Изменить
+      created: Ваш ответ опубликован.
+      new: Ответить
+      edit: Изменить
+      not_created: Ваш ответ не может быть опубликован.
+      not_created_topic_locked: Вы не можете ответить на закрытую тему.
+      edited: Сообщение изменено.
+      not_edited: Невозможно изменить сообщение.
+      deleted: Ваш ответ удален.
+      deleted_with_topic: Ответ в теме удален. Тема также удалена.
+      cannot_delete: Вы не можете удалить чужой ответ.
+      in_reply_to: В ответ на сообщение
+      cannot_quote_deleted_post: Сообщение, которое вы хотите процитировать, не существует.
+    posts:
+      moderation:
+        moderate: Модерировать
+        approve: Подтвердить
+        spam: Отметить как спам
+        success: Выбранные ответы были отмодерированы.
+      post:
+        pending_review: Этот ответ ожидает проверки. Только автор и модератор могут его просмотреть.
+    moderation:
+      index:
+        title: "Инструменты модерации для %{forum}"
+  helpers:
+    submit:
+      forum:
+        create: Создать форум
+        update: Изменить форум
+      topic:
+        create: Создать тему
+        update: Изменить тему
+  simple_form:
+    labels:
+      category:
+        name: Название
+      forum:
+        title: Заголовок
+        description: Описание
+        category: Категория
+        moderators: Модераторы
+      topic:
+        subject: Тема
+        locked: Закрыта
+        pinned: Прикреплена
+        hidden: Скрыта
+        posts:
+          text: Текст
+      post:
+        text: Текст
+      group:
+        name: Название
+
+  # General stuff
+  time_ago_in_words: "%{time} назад"
+  ago: " назад"
+  ago_by: " назад"
+  by: ''
+  started_by: "Автор "
+  are_you_sure: Вы уверены?

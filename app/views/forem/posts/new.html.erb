@@ -1,0 +1,15 @@
+<%= render :partial => 'forem/forums/head', :locals => { :forum => @topic.forum } %>
+
+<h2>
+  <%= t("forem.post.new") %>
+  <% if @reply_to_post %>
+    <%= render 'reply_to_post', :post => @reply_to_post %>
+  <% else %>
+    <em><%= @topic.subject %></em>
+  <% end %>
+</h2>
+
+<%= simple_form_for [forem, @topic.forum, @topic, @post] do |f| %>
+  <%= render :partial => "form", :locals => { :f => f } %>
+  <%= f.submit t("forem.post.buttons.reply"), :class => "btn btn-primary" %>
+<% end %>

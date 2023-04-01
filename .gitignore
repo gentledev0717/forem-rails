@@ -1,0 +1,14 @@
+.bundle/
+pkg/
+*.sqlite3
+*.log
+.rvmrc
+.rbenv-version
+*.gem
+*.gems
+tmp
+*.sw*
+spec/dummy
+*.rbc
+*.tmproj
+Gemfile.lock

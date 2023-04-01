@@ -1,0 +1,23 @@
+<% case ENV["DB"]
+  when 'sqlite' %>
+test:
+  adapter: sqlite3
+  database: "db/forem_test.sqlite3"
+<% when 'mysql' %>
+test:
+  adapter: <%= Forem::Platform.jruby? ? "mysql" : "mysql2" %>
+  database: forem_test
+  username: <%= ENV["CI"] ? "root" : "" %>
+  encoding: utf8
+<% when 'postgres' %>
+test:
+  adapter: postgresql
+  database: forem_test
+  username: postgres
+  min_messages: warning
+<% else %>
+test:
+  adapter: sqlite3
+  database: "db/forem_test.sqlite3"
+<% end %>
+
